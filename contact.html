@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="index.html">Kevin Mahoney</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,10 +34,30 @@
   </nav>
 
   <div class="row">
-    <div class="col-12 col-sm-8 col-md-6">
+    <div class="col-12 col-sm-8 col-md-6 mx-auto">
+      <form class="my-5 mb-3">
+        <div class="form-group">
+          <label for="name">name</label>
+          <input type="text" class="form-control" id="name" placeholder="your name">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
 
     </div>
 
+  </div>
+
+  <div class="sticky-bottom">
+    <footer class="text-center">&copy Copyright</footer>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
